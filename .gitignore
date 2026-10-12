@@ -1,0 +1,12 @@
+.env
+.env.*
+!.env.example
+data/
+node_modules/
+build/
+dist/
+.DS_Store
+*.log
+design/previews/
+design/inbox-x-connected.png
+design/inbox-x-pkce-authorization.png

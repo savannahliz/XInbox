@@ -1,0 +1,22 @@
+{
+  "name": "inbox-bookmarks",
+  "version": "0.2.5",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": "^22.22.2 || ^24.15.0 || >=26.0.0"
+  },
+  "scripts": {
+    "dev": "node --env-file-if-exists=.env src/server.js",
+    "start": "node --env-file-if-exists=.env src/server.js",
+    "test": "node --test tests/*.test.js",
+    "check": "node --check src/server.js && node --check src/url-import.js && node --check src/ai-client.js && node --check src/jev-client.js && node --check src/tag-rules.js && node --check src/ai-assistant.js && node --check public/app.js && node --check public/ai-assistant.js && node --check src/library.js && node --check src/operations.js && node --check src/mcp-server.js && node --check src/agent-runtime.js && node --check public/ask-agent.js && node --check public/research-canvas.js && node --check public/onboarding.js && node --check public/panel-icons.js && node --check public/media.js",
+    "mcp": "node src/mcp-server.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.0",
+    "@mozilla/readability": "^0.6.0",
+    "jsdom": "^30.1.1",
+    "zod": "^3.25.76"
+  }
+}

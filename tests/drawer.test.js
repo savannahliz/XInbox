@@ -1,0 +1,45 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
+import {JSDOM} from 'jsdom';
+import {drawerGeometry} from '../public/ai-assistant.js';
+
+test('AI 侧栏宽度在桌面、窄屏与全局缩放下正确限制，不溢出视口',()=>{
+  assert.deepEqual(drawerGeometry(600,1440),{width:600,min:320,max:960});
+  assert.equal(drawerGeometry(200,1440).width,320);
+  assert.equal(drawerGeometry(2000,1440).width,960);
+  assert.deepEqual(drawerGeometry(600,360,2),{width:180,min:180,max:180});
+  assert.equal(drawerGeometry(600,900,1.5).width,600);
+});
+test('翻译/总结/问答共用可调整侧栏，收起选项、键盘、拖动和重新打开保持宽度及未提交问题',async()=>{
+  const dom=new JSDOM('<button data-ai-action="article">AI 对话</button><dialog id="editor"></dialog>',{url:'http://localhost',runScripts:'outside-only'}),w=dom.window;
+  Object.defineProperty(w.document.documentElement,'clientWidth',{value:1024});
+  const source=readFileSync(new URL('../public/ai-assistant.js',import.meta.url),'utf8').replace(/^import .*;\n/,'').replaceAll('export function','function');
+  const icons=readFileSync(new URL('../public/panel-icons.js',import.meta.url),'utf8').replaceAll('export function','function');w.eval(icons+';window.panelButton=panelButton;window.panelIcon=panelIcon;');
+  w.eval(source+';window.createAssistant=createAIAssistant;');
+  const state={view:'detail',id:'1',catalog:{demo:true,bookmarks:[{id:'1',title:'测试',tags:[]}],categories:[]},status:{ai:{configured:false}},settings:{prompts:[],usage:{warnings:[]}}};
+  const a=w.createAssistant({state,api:async()=>({messages:[],job:null}),esc:v=>String(v),heading:()=>'',toast:()=>{},editor:w.document.querySelector('#editor'),mountSelectMenus:()=>{}});
+  const click=async s=>{w.document.querySelector(s).click();await new Promise(r=>setTimeout(r,0));};
+  await click('[data-ai-action="article"]');
+  const drawer=w.document.querySelector('#ai-drawer'),handle=drawer.querySelector('[role="separator"]');
+  assert.equal(drawer.style.getPropertyValue('--ai-drawer-width'),'480px');
+  drawer.querySelector('textarea').value='未提交的问题';
+  await click('[data-ai-action="toggle-controls"]');assert.equal(drawer.querySelector('.ai-drawer-controls').hidden,true);assert.equal(drawer.querySelector('textarea').value,'未提交的问题');await click('[data-ai-action="toggle-controls"]');assert.equal(drawer.querySelector('.ai-drawer-controls').hidden,false);
+  assert.equal(drawer.querySelector('.panel-overflow'),null);
+  for(const action of ['narrow','widen','reset-width'])assert.equal(drawer.querySelector('[data-ai-action="'+action+'"]'),null);
+  assert.equal(drawer.querySelector('textarea').value,'未提交的问题');
+  handle.dispatchEvent(new w.KeyboardEvent('keydown',{key:'ArrowLeft',bubbles:true}));
+  assert.equal(drawer.style.getPropertyValue('--ai-drawer-width'),'504px');
+  w.document.documentElement.style.setProperty('--ui-scale','2');
+  drawer.getBoundingClientRect=()=>({width:1008});handle.setPointerCapture=()=>{};
+  handle.dispatchEvent(new w.MouseEvent('pointerdown',{clientX:500,button:0,bubbles:true}));
+  handle.dispatchEvent(new w.MouseEvent('pointermove',{clientX:420,bubbles:true}));
+  handle.dispatchEvent(new w.MouseEvent('pointerup',{bubbles:true}));
+  assert.equal(w.localStorage.getItem('inbox-ai-width'),'544');
+  assert.equal(w.document.body.classList.contains('ai-resizing'),false);
+  w.document.documentElement.style.setProperty('--ui-scale','1');
+  await click('[data-ai-action="close"]');await click('[data-ai-action="article"]');
+  assert.equal(drawer.style.getPropertyValue('--ai-drawer-width'),'544px');assert.equal(drawer.querySelector('textarea').value,'未提交的问题');
+  a.onRender();assert.equal(drawer.style.getPropertyValue('--ai-drawer-width'),'544px');
+  dom.window.close();
+});

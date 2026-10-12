@@ -1,0 +1,687 @@
+<frame id="2:2315" name="终端主体" x="0" y="30" width="1440" height="1570">
+  <frame id="2:2316" name="侧边导航" x="0" y="0" width="238" height="1570">
+    <frame id="2:2317" name="档案标识" x="16" y="24" width="206" height="113">
+      <frame id="2:2318" name="标志" x="0" y="0" width="165" height="40">
+        <frame id="2:2319" name="标志图形" x="0" y="0" width="40" height="40">
+          <text id="2:2320" name="标志字母" x="13" y="5.5" width="14" height="29" />
+        </frame>
+        <frame id="2:2321" name="品牌文字" x="51" y="2" width="114" height="36">
+          <text id="2:2322" name="品牌" x="0" y="0" width="87" height="21" />
+          <text id="2:2323" name="版本" x="0" y="23" width="114" height="13" />
+        </frame>
+      </frame>
+      <frame id="2:2324" name="身份卡" x="0" y="54" width="206" height="59">
+        <text id="2:2325" name="用户" x="12" y="12" width="94" height="17" />
+        <text id="2:2326" name="权限" x="12" y="34" width="136" height="13" />
+      </frame>
+    </frame>
+    <frame id="2:2327" name="主导航" x="16" y="161" width="206" height="275">
+      <frame id="2:2328" name="终端标签" x="0" y="0" width="114" height="15">
+        <text id="2:2329" name="索引" x="0" y="0" width="20" height="15" />
+        <text id="2:2330" name="标签" x="28" y="0" width="86" height="15" />
+      </frame>
+      <frame id="2:2331" name="导航项" x="0" y="23" width="206" height="44">
+        <text id="2:2332" name="序号" x="14" y="15.5" width="24" height="13" />
+        <frame id="2:2839" name="layout-dashboard" x="50" y="14" width="16" height="16" />
+        <text id="2:2334" name="名称" x="78" y="13.5" width="114" height="17" />
+      </frame>
+      <frame id="2:2335" name="导航项" x="0" y="75" width="206" height="44">
+        <text id="2:2336" name="序号" x="14" y="15.5" width="24" height="13" />
+        <frame id="2:2842" name="bookmark" x="50" y="14" width="16" height="16" />
+        <text id="2:2338" name="名称" x="78" y="13.5" width="72" height="17" />
+        <text id="2:2339" name="数量" x="162" y="15.5" width="30" height="13" />
+      </frame>
+      <frame id="2:2340" name="导航项" x="0" y="127" width="206" height="44">
+        <text id="2:2341" name="序号" x="14" y="15.5" width="24" height="13" />
+        <frame id="2:2845" name="folder-kanban" x="50" y="14" width="16" height="16" />
+        <text id="2:2343" name="名称" x="78" y="13.5" width="90" height="17" />
+        <text id="2:2344" name="数量" x="180" y="15.5" width="12" height="13" />
+      </frame>
+      <frame id="2:2345" name="导航项" x="0" y="179" width="206" height="44">
+        <text id="2:2346" name="序号" x="14" y="15.5" width="24" height="13" />
+        <frame id="2:2848" name="tags" x="50" y="14" width="16" height="16" />
+        <text id="2:2348" name="名称" x="78" y="13.5" width="90" height="17" />
+        <text id="2:2349" name="数量" x="180" y="15.5" width="12" height="13" />
+      </frame>
+      <frame id="2:2350" name="导航项" x="0" y="231" width="206" height="44">
+        <text id="2:2351" name="序号" x="14" y="15.5" width="24" height="13" />
+        <frame id="2:2851" name="clock-3" x="50" y="14" width="16" height="16" />
+        <text id="2:2353" name="名称" x="78" y="13.5" width="90" height="17" />
+        <text id="2:2354" name="数量" x="180" y="15.5" width="12" height="13" />
+      </frame>
+    </frame>
+    <frame id="2:2355" name="工具导航" x="16" y="460" width="206" height="171">
+      <frame id="2:2356" name="终端标签" x="0" y="0" width="121" height="15">
+        <text id="2:2357" name="索引" x="0" y="0" width="20" height="15" />
+        <text id="2:2358" name="标签" x="28" y="0" width="93" height="15" />
+      </frame>
+      <frame id="2:2359" name="导航项" x="0" y="23" width="206" height="44">
+        <text id="2:2360" name="序号" x="14" y="15.5" width="24" height="13" />
+        <frame id="2:2854" name="refresh-cw" x="50" y="14" width="16" height="16" />
+        <text id="2:2362" name="名称" x="78" y="13.5" width="114" height="17" />
+      </frame>
+      <frame id="2:2363" name="导航项" x="0" y="75" width="206" height="44">
+        <text id="2:2364" name="序号" x="14" y="15.5" width="24" height="13" />
+        <frame id="2:2857" name="download" x="50" y="14" width="16" height="16" />
+        <text id="2:2366" name="名称" x="78" y="13.5" width="114" height="17" />
+      </frame>
+      <frame id="2:2367" name="导航项" x="0" y="127" width="206" height="44">
+        <text id="2:2368" name="序号" x="14" y="15.5" width="24" height="13" />
+        <frame id="2:2860" name="settings-2" x="50" y="14" width="16" height="16" />
+        <text id="2:2370" name="名称" x="78" y="13.5" width="114" height="17" />
+      </frame>
+    </frame>
+    <frame id="2:2371" name="侧边剩余空间" x="16" y="655" width="206" height="759" />
+    <frame id="2:2372" name="存储状态" x="16" y="1438" width="206" height="75">
+      <frame id="2:2373" name="存储标题" x="12" y="12" width="182" height="13">
+        <text id="2:2374" name="标题" x="0" y="0" width="66" height="13" />
+        <text id="2:2375" name="占用" x="152" y="0" width="30" height="13" />
+      </frame>
+      <frame id="2:2376" name="存储轨道" x="12" y="35" width="182" height="5">
+        <rounded-rectangle id="2:2377" name="存储进度" x="0" y="0" width="123" height="5" />
+      </frame>
+      <text id="2:2378" name="容量" x="12" y="50" width="102" height="13" />
+    </frame>
+    <frame id="2:2379" name="同步状态" x="16" y="1537" width="206" height="13">
+      <rounded-rectangle id="2:2380" name="同步点" x="0" y="3" width="7" height="7" />
+      <text id="2:2381" name="同步文字" x="15" y="0" width="94" height="13" />
+    </frame>
+  </frame>
+  <frame id="2:2382" name="档案工作区" x="238" y="0" width="1202" height="1570">
+    <frame id="2:2383" name="标题与收藏统计" x="34" y="30" width="1134" height="184">
+      <frame id="2:2384" name="档案标题" x="0" y="0" width="440" height="184">
+        <frame id="2:2385" name="终端标签" x="0" y="4" width="134" height="15">
+          <text id="2:2386" name="索引" x="0" y="0" width="27" height="15" />
+          <text id="2:2387" name="标签" x="35" y="0" width="99" height="15" />
+        </frame>
+        <frame id="2:2388" name="标题行" x="0" y="29" width="286" height="46">
+          <text id="2:2389" name="标题" x="0" y="0" width="223" height="46" />
+          <frame id="2:2390" name="在线徽章" x="235" y="12.5" width="51" height="21">
+            <rounded-rectangle id="2:2391" name="在线点" x="8" y="4" width="5" height="5" />
+            <text id="2:2392" name="在线" x="19" y="4" width="24" height="13" />
+          </frame>
+        </frame>
+        <frame id="2:2394" name="索引提示" x="0" y="85" width="286" height="15">
+          <frame id="2:2863" name="activity" x="0" y="0.5" width="14" height="14" />
+          <text id="2:2396" name="提示" x="22" y="0" width="264" height="15" />
+        </frame>
+      </frame>
+      <frame id="2:2397" name="统计面板" x="468" y="0" width="666" height="184">
+        <frame id="2:2398" name="面板标题" x="16" y="16" width="634" height="15">
+          <frame id="2:2399" name="终端标签" x="0" y="0" width="134" height="15">
+            <text id="2:2400" name="索引" x="0" y="0" width="27" height="15" />
+            <text id="2:2401" name="标签" x="35" y="0" width="99" height="15" />
+          </frame>
+        </frame>
+        <frame id="2:2403" name="统计网格" x="16" y="43" width="634" height="125">
+          <frame id="2:2404" name="档案统计" x="0" y="0" width="151" height="86">
+            <text id="2:2405" name="统计名" x="14" y="12" width="78" height="13" />
+            <frame id="2:2406" name="统计数值行" x="14" y="31" width="123" height="34">
+              <text id="2:2407" name="统计数值" x="0" y="0" width="78" height="34" />
+              <text id="2:2408" name="统计说明" x="93" y="22" width="30" height="12" />
+            </frame>
+            <rounded-rectangle id="2:2409" name="统计标线" x="14" y="71" width="123" height="2" />
+          </frame>
+          <frame id="2:2410" name="档案统计" x="161" y="0" width="151" height="86">
+            <text id="2:2411" name="统计名" x="14" y="12" width="60" height="13" />
+            <frame id="2:2412" name="统计数值行" x="14" y="31" width="123" height="34">
+              <text id="2:2413" name="统计数值" x="0" y="0" width="47" height="34" />
+              <text id="2:2414" name="统计说明" x="83" y="22" width="40" height="12" />
+            </frame>
+            <rounded-rectangle id="2:2415" name="统计标线" x="14" y="71" width="123" height="2" />
+          </frame>
+          <frame id="2:2416" name="档案统计" x="322" y="0" width="151" height="86">
+            <text id="2:2417" name="统计名" x="14" y="12" width="60" height="13" />
+            <frame id="2:2418" name="统计数值行" x="14" y="31" width="123" height="34">
+              <text id="2:2419" name="统计数值" x="0" y="0" width="32" height="34" />
+              <text id="2:2420" name="统计说明" x="83" y="22" width="40" height="12" />
+            </frame>
+            <rounded-rectangle id="2:2421" name="统计标线" x="14" y="71" width="123" height="2" />
+          </frame>
+          <frame id="2:2422" name="档案统计" x="483" y="0" width="151" height="86">
+            <text id="2:2423" name="统计名" x="14" y="12" width="54" height="13" />
+            <frame id="2:2424" name="统计数值行" x="14" y="31" width="123" height="34">
+              <text id="2:2425" name="统计数值" x="0" y="0" width="32" height="34" />
+              <text id="2:2426" name="统计说明" x="83" y="22" width="40" height="12" />
+            </frame>
+            <rounded-rectangle id="2:2427" name="统计标线" x="14" y="71" width="123" height="2" />
+          </frame>
+        </frame>
+        <rounded-rectangle id="2:2428" name="角标" x="0" y="0" width="14" height="2" />
+        <rounded-rectangle id="2:2429" name="角标" x="0" y="0" width="2" height="14" />
+        <rounded-rectangle id="2:2430" name="角标" x="652" y="182" width="14" height="2" />
+        <rounded-rectangle id="2:2431" name="角标" x="664" y="170" width="2" height="14" />
+      </frame>
+    </frame>
+    <frame id="2:2432" name="搜索筛选与主题合集" x="34" y="246" width="1134" height="218">
+      <frame id="2:2433" name="搜索与筛选" x="0" y="0" width="1134" height="44">
+        <frame id="2:2434" name="搜索框" x="0" y="0" width="662" height="44">
+          <frame id="2:2866" name="search" x="14" y="13.5" width="17" height="17" />
+          <text id="2:2436" name="搜索提示" x="43" y="13.5" width="575" height="17" />
+          <text id="2:2437" name="快捷键" x="630" y="15.5" width="18" height="13" />
+        </frame>
+        <frame id="2:2438" name="终端按钮" x="672" y="0" width="112" height="36">
+          <frame id="2:2869" name="arrow-down-wide-narrow" x="23" y="11" width="14" height="14" />
+          <text id="2:2440" name="按钮文字" x="45" y="10.5" width="44" height="15" />
+        </frame>
+        <frame id="2:2441" name="终端按钮" x="794" y="0" width="106" height="36">
+          <frame id="2:2872" name="tags" x="20" y="11" width="14" height="14" />
+          <text id="2:2443" name="按钮文字" x="42" y="10.5" width="44" height="15" />
+        </frame>
+        <frame id="2:2444" name="终端按钮" x="910" y="0" width="102" height="36">
+          <frame id="2:2875" name="image" x="23.5" y="11" width="14" height="14" />
+          <text id="2:2446" name="按钮文字" x="45.5" y="10.5" width="33" height="15" />
+        </frame>
+        <frame id="2:2447" name="终端按钮" x="1022" y="0" width="112" height="36">
+          <frame id="2:2878" name="sliders-horizontal" x="23" y="11" width="14" height="14" />
+          <text id="2:2449" name="按钮文字" x="45" y="10.5" width="44" height="15" />
+        </frame>
+      </frame>
+      <frame id="2:2450" name="主题合集区域" x="0" y="62" width="1134" height="151">
+        <frame id="2:2451" name="合集区域标题" x="0" y="0" width="1134" height="15">
+          <frame id="2:2452" name="终端标签" x="0" y="0" width="231" height="15">
+            <text id="2:2453" name="索引" x="0" y="0" width="27" height="15" />
+            <text id="2:2454" name="标签" x="35" y="0" width="196" height="15" />
+          </frame>
+          <frame id="2:2455" name="合集操作" x="1018" y="1" width="116" height="13">
+            <text id="2:2456" name="查看全部" x="0" y="0" width="95" height="13" />
+            <frame id="2:2881" name="arrow-up-right" x="103" y="0" width="13" height="13" />
+          </frame>
+        </frame>
+        <frame id="2:2458" name="合集网格" x="0" y="25" width="1134" height="126">
+          <frame id="2:2459" name="主题合集" x="0" y="0" width="276" height="126">
+            <frame id="2:2460" name="合集顶部" x="14" y="14" width="248" height="30">
+              <frame id="2:2461" name="合集图标" x="0" y="0" width="30" height="30">
+                <frame id="2:2884" name="bot" x="7" y="7" width="16" height="16" />
+              </frame>
+              <text id="2:2463" name="合集编号" x="206" y="8.5" width="42" height="13" />
+            </frame>
+            <frame id="2:2464" name="合集标题行" x="14" y="54" width="248" height="20">
+              <text id="2:2465" name="合集标题" x="0" y="0" width="84" height="19" />
+              <text id="2:2466" name="收藏数量" x="228" y="5" width="20" height="15" />
+            </frame>
+            <rounded-rectangle id="2:2468" name="信号条" x="14" y="84" width="248" height="2" />
+          </frame>
+          <frame id="2:2469" name="主题合集" x="286" y="0" width="276" height="126">
+            <frame id="2:2470" name="合集顶部" x="14" y="14" width="248" height="30">
+              <frame id="2:2471" name="合集图标" x="0" y="0" width="30" height="30">
+                <frame id="2:2887" name="panels-top-left" x="7" y="7" width="16" height="16" />
+              </frame>
+              <text id="2:2473" name="合集编号" x="206" y="8.5" width="42" height="13" />
+            </frame>
+            <frame id="2:2474" name="合集标题行" x="14" y="54" width="248" height="20">
+              <text id="2:2475" name="合集标题" x="0" y="0" width="64" height="19" />
+              <text id="2:2476" name="收藏数量" x="228" y="5" width="20" height="15" />
+            </frame>
+            <rounded-rectangle id="2:2478" name="信号条" x="14" y="84" width="248" height="2" />
+          </frame>
+          <frame id="2:2479" name="主题合集" x="572" y="0" width="276" height="126">
+            <frame id="2:2480" name="合集顶部" x="14" y="14" width="248" height="30">
+              <frame id="2:2481" name="合集图标" x="0" y="0" width="30" height="30">
+                <frame id="2:2890" name="rocket" x="7" y="7" width="16" height="16" />
+              </frame>
+              <text id="2:2483" name="合集编号" x="206" y="8.5" width="42" height="13" />
+            </frame>
+            <frame id="2:2484" name="合集标题行" x="14" y="54" width="248" height="20">
+              <text id="2:2485" name="合集标题" x="0" y="0" width="64" height="19" />
+              <text id="2:2486" name="收藏数量" x="234" y="5" width="14" height="15" />
+            </frame>
+            <rounded-rectangle id="2:2488" name="信号条" x="14" y="84" width="248" height="2" />
+          </frame>
+          <frame id="2:2489" name="主题合集" x="858" y="0" width="276" height="126">
+            <frame id="2:2490" name="合集顶部" x="14" y="14" width="248" height="30">
+              <frame id="2:2491" name="合集图标" x="0" y="0" width="30" height="30">
+                <frame id="2:2893" name="building-2" x="7" y="7" width="16" height="16" />
+              </frame>
+              <text id="2:2493" name="合集编号" x="206" y="8.5" width="42" height="13" />
+            </frame>
+            <frame id="2:2494" name="合集标题行" x="14" y="54" width="248" height="20">
+              <text id="2:2495" name="合集标题" x="0" y="0" width="64" height="19" />
+              <text id="2:2496" name="收藏数量" x="234" y="5" width="14" height="15" />
+            </frame>
+            <rounded-rectangle id="2:2498" name="信号条" x="14" y="84" width="248" height="2" />
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+    <frame id="2:2499" name="收藏卡片流" x="34" y="496" width="1134" height="838">
+      <frame id="2:2500" name="内容流标题" x="0" y="0" width="1134" height="28">
+        <frame id="2:2501" name="终端标签" x="0" y="6.5" width="198" height="15">
+          <text id="2:2502" name="索引" x="0" y="0" width="27" height="15" />
+          <text id="2:2503" name="标签" x="35" y="0" width="163" height="15" />
+        </frame>
+        <frame id="2:2504" name="结果状态" x="1076" y="2" width="58" height="24">
+          <frame id="2:2506" name="视图切换" x="0" y="0" width="58" height="24">
+            <frame id="2:2507" name="卡片视图" x="0" y="0" width="26" height="24">
+              <frame id="2:2896" name="layout-grid" x="6.5" y="5.5" width="13" height="13" />
+            </frame>
+            <frame id="2:2509" name="列表视图" x="32" y="0" width="26" height="24">
+              <frame id="2:2899" name="list" x="6.5" y="5.5" width="13" height="13" />
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+      <frame id="2:2511" name="卡片网格" x="0" y="40" width="1134" height="798">
+        <frame id="2:2512" name="卡片列" x="0" y="0" width="561" height="798">
+          <frame id="2:2513" name="推文收藏卡片" x="0" y="0" width="561" height="248">
+            <frame id="2:2514" name="推文头部" x="14" y="14" width="533" height="32">
+              <frame id="2:2515" name="作者头像" x="0" y="0" width="32" height="32">
+                <text id="2:2516" name="头像字母" x="9" y="8.5" width="14" height="15" />
+              </frame>
+              <frame id="2:2517" name="作者信息" x="42" y="1" width="404" height="30">
+                <frame id="2:2518" name="作者名行" x="0" y="0" width="91" height="17">
+                  <text id="2:2519" name="作者" x="0" y="0" width="42" height="17" />
+                  <text id="2:2520" name="账号" x="49" y="2" width="42" height="13" />
+                </frame>
+                <text id="2:2521" name="收藏时间" x="0" y="18" width="156" height="12" />
+              </frame>
+              <text id="2:2522" name="平台" x="456" y="5" width="13" height="22" />
+              <text id="2:2523" name="档案编号" x="479" y="9.5" width="54" height="13" />
+            </frame>
+            <text id="2:2524" name="推文正文" x="14" y="57" width="533" height="48" />
+            <frame id="2:2525" name="档案批注" x="14" y="116" width="533" height="58">
+              <frame id="2:2902" name="terminal-square" x="10" y="21.5" width="15" height="15" />
+              <text id="2:2527" name="批注内容" x="35" y="22.5" width="488" height="13" />
+            </frame>
+            <frame id="2:2528" name="标签与操作" x="14" y="185" width="533" height="21">
+              <frame id="2:2529" name="推文标签" x="0" y="0" width="122" height="21">
+                <frame id="2:2530" name="标签" x="0" y="0" width="54" height="21">
+                  <text id="2:2531" name="标签内容" x="8" y="4" width="38" height="13" />
+                </frame>
+                <frame id="2:2532" name="标签" x="60" y="0" width="62" height="21">
+                  <text id="2:2533" name="标签内容" x="8" y="4" width="46" height="13" />
+                </frame>
+              </frame>
+              <frame id="2:2534" name="卡片操作" x="495" y="3.5" width="38" height="14">
+                <frame id="2:2905" name="external-link" x="0" y="0" width="14" height="14" />
+                <frame id="2:2908" name="more-horizontal" x="24" y="0" width="14" height="14" />
+              </frame>
+            </frame>
+            <frame id="2:2537" name="互动数据" x="14" y="217" width="533" height="15">
+              <frame id="2:2538" name="互动指标" x="0" y="1" width="55" height="13">
+                <frame id="2:2911" name="message-circle" x="0" y="0" width="13" height="13" />
+                <text id="2:2540" name="指标数值" x="18" y="0" width="12" height="13" />
+                <text id="2:2541" name="指标名" x="35" y="0.5" width="20" height="12" />
+              </frame>
+              <frame id="2:2542" name="互动指标" x="71" y="1" width="61" height="13">
+                <frame id="2:2914" name="repeat-2" x="0" y="0" width="13" height="13" />
+                <text id="2:2544" name="指标数值" x="18" y="0" width="18" height="13" />
+                <text id="2:2545" name="指标名" x="41" y="0.5" width="20" height="12" />
+              </frame>
+              <frame id="2:2546" name="互动指标" x="148" y="1" width="61" height="13">
+                <frame id="2:2917" name="heart" x="0" y="0" width="13" height="13" />
+                <text id="2:2548" name="指标数值" x="18" y="0" width="18" height="13" />
+                <text id="2:2549" name="指标名" x="41" y="0.5" width="20" height="12" />
+              </frame>
+              <frame id="2:2550" name="互动指标" x="225" y="1" width="71" height="13">
+                <frame id="2:2920" name="bar-chart-2" x="0" y="0" width="13" height="13" />
+                <text id="2:2552" name="指标数值" x="18" y="0" width="28" height="13" />
+                <text id="2:2553" name="指标名" x="51" y="0.5" width="20" height="12" />
+              </frame>
+              <frame id="2:2554" name="收藏标记" x="312" y="0" width="221" height="15">
+                <frame id="2:2923" name="bookmark-check" x="206" y="0" width="15" height="15" />
+              </frame>
+            </frame>
+            <rounded-rectangle id="2:2556" name="角标" x="0" y="0" width="14" height="2" />
+            <rounded-rectangle id="2:2557" name="角标" x="0" y="0" width="2" height="14" />
+            <rounded-rectangle id="2:2558" name="角标" x="547" y="246" width="14" height="2" />
+            <rounded-rectangle id="2:2559" name="角标" x="559" y="234" width="2" height="14" />
+          </frame>
+          <frame id="2:2560" name="推文收藏卡片" x="0" y="260" width="561" height="248">
+            <frame id="2:2561" name="推文头部" x="14" y="14" width="533" height="32">
+              <frame id="2:2562" name="作者头像" x="0" y="0" width="32" height="32">
+                <text id="2:2563" name="头像字母" x="9" y="8.5" width="14" height="15" />
+              </frame>
+              <frame id="2:2564" name="作者信息" x="42" y="1" width="404" height="30">
+                <frame id="2:2565" name="作者名行" x="0" y="0" width="88" height="17">
+                  <text id="2:2566" name="作者" x="0" y="0" width="33" height="17" />
+                  <text id="2:2567" name="账号" x="40" y="2" width="48" height="13" />
+                </frame>
+                <text id="2:2568" name="收藏时间" x="0" y="18" width="144" height="12" />
+              </frame>
+              <text id="2:2569" name="平台" x="456" y="5" width="13" height="22" />
+              <text id="2:2570" name="档案编号" x="479" y="9.5" width="54" height="13" />
+            </frame>
+            <text id="2:2571" name="推文正文" x="14" y="57" width="533" height="48" />
+            <frame id="2:2572" name="档案批注" x="14" y="116" width="533" height="58">
+              <frame id="2:2926" name="terminal-square" x="10" y="21.5" width="15" height="15" />
+              <text id="2:2574" name="批注内容" x="35" y="22.5" width="488" height="13" />
+            </frame>
+            <frame id="2:2575" name="标签与操作" x="14" y="185" width="533" height="21">
+              <frame id="2:2576" name="推文标签" x="0" y="0" width="130" height="21">
+                <frame id="2:2577" name="标签" x="0" y="0" width="62" height="21">
+                  <text id="2:2578" name="标签内容" x="8" y="4" width="46" height="13" />
+                </frame>
+                <frame id="2:2579" name="标签" x="68" y="0" width="62" height="21">
+                  <text id="2:2580" name="标签内容" x="8" y="4" width="46" height="13" />
+                </frame>
+              </frame>
+              <frame id="2:2581" name="卡片操作" x="495" y="3.5" width="38" height="14">
+                <frame id="2:2929" name="external-link" x="0" y="0" width="14" height="14" />
+                <frame id="2:2932" name="more-horizontal" x="24" y="0" width="14" height="14" />
+              </frame>
+            </frame>
+            <frame id="2:2584" name="互动数据" x="14" y="217" width="533" height="15">
+              <frame id="2:2585" name="互动指标" x="0" y="1" width="55" height="13">
+                <frame id="2:2935" name="message-circle" x="0" y="0" width="13" height="13" />
+                <text id="2:2587" name="指标数值" x="18" y="0" width="12" height="13" />
+                <text id="2:2588" name="指标名" x="35" y="0.5" width="20" height="12" />
+              </frame>
+              <frame id="2:2589" name="互动指标" x="71" y="1" width="61" height="13">
+                <frame id="2:2938" name="repeat-2" x="0" y="0" width="13" height="13" />
+                <text id="2:2591" name="指标数值" x="18" y="0" width="18" height="13" />
+                <text id="2:2592" name="指标名" x="41" y="0.5" width="20" height="12" />
+              </frame>
+              <frame id="2:2593" name="互动指标" x="148" y="1" width="73" height="13">
+                <frame id="2:2941" name="heart" x="0" y="0" width="13" height="13" />
+                <text id="2:2595" name="指标数值" x="18" y="0" width="30" height="13" />
+                <text id="2:2596" name="指标名" x="53" y="0.5" width="20" height="12" />
+              </frame>
+              <frame id="2:2597" name="互动指标" x="237" y="1" width="77" height="13">
+                <frame id="2:2944" name="bar-chart-2" x="0" y="0" width="13" height="13" />
+                <text id="2:2599" name="指标数值" x="18" y="0" width="34" height="13" />
+                <text id="2:2600" name="指标名" x="57" y="0.5" width="20" height="12" />
+              </frame>
+              <frame id="2:2601" name="收藏标记" x="330" y="0" width="203" height="15">
+                <frame id="2:2947" name="bookmark-check" x="188" y="0" width="15" height="15" />
+              </frame>
+            </frame>
+            <rounded-rectangle id="2:2603" name="角标" x="0" y="0" width="14" height="2" />
+            <rounded-rectangle id="2:2604" name="角标" x="0" y="0" width="2" height="14" />
+            <rounded-rectangle id="2:2605" name="角标" x="547" y="246" width="14" height="2" />
+            <rounded-rectangle id="2:2606" name="角标" x="559" y="234" width="2" height="14" />
+          </frame>
+          <frame id="2:2607" name="推文收藏卡片" x="0" y="520" width="561" height="248">
+            <frame id="2:2608" name="推文头部" x="14" y="14" width="533" height="32">
+              <frame id="2:2609" name="作者头像" x="0" y="0" width="32" height="32">
+                <text id="2:2610" name="头像字母" x="9" y="8.5" width="14" height="15" />
+              </frame>
+              <frame id="2:2611" name="作者信息" x="42" y="1" width="404" height="30">
+                <frame id="2:2612" name="作者名行" x="0" y="0" width="130" height="17">
+                  <text id="2:2613" name="作者" x="0" y="0" width="57" height="17" />
+                  <text id="2:2614" name="账号" x="64" y="2" width="66" height="13" />
+                </frame>
+                <text id="2:2615" name="收藏时间" x="0" y="18" width="139" height="12" />
+              </frame>
+              <text id="2:2616" name="平台" x="456" y="5" width="13" height="22" />
+              <text id="2:2617" name="档案编号" x="479" y="9.5" width="54" height="13" />
+            </frame>
+            <text id="2:2618" name="推文正文" x="14" y="57" width="533" height="48" />
+            <frame id="2:2619" name="档案批注" x="14" y="116" width="533" height="58">
+              <frame id="2:2950" name="terminal-square" x="10" y="21.5" width="15" height="15" />
+              <text id="2:2621" name="批注内容" x="35" y="22.5" width="488" height="13" />
+            </frame>
+            <frame id="2:2622" name="标签与操作" x="14" y="185" width="533" height="21">
+              <frame id="2:2623" name="推文标签" x="0" y="0" width="110" height="21">
+                <frame id="2:2624" name="标签" x="0" y="0" width="62" height="21">
+                  <text id="2:2625" name="标签内容" x="8" y="4" width="46" height="13" />
+                </frame>
+                <frame id="2:2626" name="标签" x="68" y="0" width="42" height="21">
+                  <text id="2:2627" name="标签内容" x="8" y="4" width="26" height="13" />
+                </frame>
+              </frame>
+              <frame id="2:2628" name="卡片操作" x="495" y="3.5" width="38" height="14">
+                <frame id="2:2953" name="external-link" x="0" y="0" width="14" height="14" />
+                <frame id="2:2956" name="more-horizontal" x="24" y="0" width="14" height="14" />
+              </frame>
+            </frame>
+            <frame id="2:2631" name="互动数据" x="14" y="217" width="533" height="15">
+              <frame id="2:2632" name="互动指标" x="0" y="1" width="55" height="13">
+                <frame id="2:2959" name="message-circle" x="0" y="0" width="13" height="13" />
+                <text id="2:2634" name="指标数值" x="18" y="0" width="12" height="13" />
+                <text id="2:2635" name="指标名" x="35" y="0.5" width="20" height="12" />
+              </frame>
+              <frame id="2:2636" name="互动指标" x="71" y="1" width="55" height="13">
+                <frame id="2:2962" name="repeat-2" x="0" y="0" width="13" height="13" />
+                <text id="2:2638" name="指标数值" x="18" y="0" width="12" height="13" />
+                <text id="2:2639" name="指标名" x="35" y="0.5" width="20" height="12" />
+              </frame>
+              <frame id="2:2640" name="互动指标" x="142" y="1" width="61" height="13">
+                <frame id="2:2965" name="heart" x="0" y="0" width="13" height="13" />
+                <text id="2:2642" name="指标数值" x="18" y="0" width="18" height="13" />
+                <text id="2:2643" name="指标名" x="41" y="0.5" width="20" height="12" />
+              </frame>
+              <frame id="2:2644" name="互动指标" x="219" y="1" width="71" height="13">
+                <frame id="2:2968" name="bar-chart-2" x="0" y="0" width="13" height="13" />
+                <text id="2:2646" name="指标数值" x="18" y="0" width="28" height="13" />
+                <text id="2:2647" name="指标名" x="51" y="0.5" width="20" height="12" />
+              </frame>
+              <frame id="2:2648" name="收藏标记" x="306" y="0" width="227" height="15">
+                <frame id="2:2971" name="bookmark-check" x="212" y="0" width="15" height="15" />
+              </frame>
+            </frame>
+            <rounded-rectangle id="2:2650" name="角标" x="0" y="0" width="14" height="2" />
+            <rounded-rectangle id="2:2651" name="角标" x="0" y="0" width="2" height="14" />
+            <rounded-rectangle id="2:2652" name="角标" x="547" y="246" width="14" height="2" />
+            <rounded-rectangle id="2:2653" name="角标" x="559" y="234" width="2" height="14" />
+          </frame>
+        </frame>
+        <frame id="2:2654" name="卡片列" x="573" y="0" width="561" height="798">
+          <frame id="2:2655" name="推文收藏卡片" x="0" y="0" width="561" height="248">
+            <frame id="2:2656" name="推文头部" x="14" y="14" width="533" height="32">
+              <frame id="2:2657" name="作者头像" x="0" y="0" width="32" height="32">
+                <text id="2:2658" name="头像字母" x="9" y="8.5" width="14" height="15" />
+              </frame>
+              <frame id="2:2659" name="作者信息" x="42" y="1" width="404" height="30">
+                <frame id="2:2660" name="作者名行" x="0" y="0" width="71" height="17">
+                  <text id="2:2661" name="作者" x="0" y="0" width="28" height="17" />
+                  <text id="2:2662" name="账号" x="35" y="2" width="36" height="13" />
+                </frame>
+                <text id="2:2663" name="收藏时间" x="0" y="18" width="144" height="12" />
+              </frame>
+              <text id="2:2664" name="平台" x="456" y="5" width="13" height="22" />
+              <text id="2:2665" name="档案编号" x="479" y="9.5" width="54" height="13" />
+            </frame>
+            <text id="2:2666" name="推文正文" x="14" y="57" width="533" height="48" />
+            <frame id="2:2667" name="档案批注" x="14" y="116" width="533" height="58">
+              <frame id="2:2974" name="terminal-square" x="10" y="21.5" width="15" height="15" />
+              <text id="2:2669" name="批注内容" x="35" y="22.5" width="488" height="13" />
+            </frame>
+            <frame id="2:2670" name="标签与操作" x="14" y="185" width="533" height="21">
+              <frame id="2:2671" name="推文标签" x="0" y="0" width="120" height="21">
+                <frame id="2:2672" name="标签" x="0" y="0" width="62" height="21">
+                  <text id="2:2673" name="标签内容" x="8" y="4" width="46" height="13" />
+                </frame>
+                <frame id="2:2674" name="标签" x="68" y="0" width="52" height="21">
+                  <text id="2:2675" name="标签内容" x="8" y="4" width="36" height="13" />
+                </frame>
+              </frame>
+              <frame id="2:2676" name="卡片操作" x="495" y="3.5" width="38" height="14">
+                <frame id="2:2977" name="external-link" x="0" y="0" width="14" height="14" />
+                <frame id="2:2980" name="more-horizontal" x="24" y="0" width="14" height="14" />
+              </frame>
+            </frame>
+            <frame id="2:2679" name="互动数据" x="14" y="217" width="533" height="15">
+              <frame id="2:2680" name="互动指标" x="0" y="1" width="49" height="13">
+                <frame id="2:2983" name="message-circle" x="0" y="0" width="13" height="13" />
+                <text id="2:2682" name="指标数值" x="18" y="0" width="6" height="13" />
+                <text id="2:2683" name="指标名" x="29" y="0.5" width="20" height="12" />
+              </frame>
+              <frame id="2:2684" name="互动指标" x="65" y="1" width="55" height="13">
+                <frame id="2:2986" name="repeat-2" x="0" y="0" width="13" height="13" />
+                <text id="2:2686" name="指标数值" x="18" y="0" width="12" height="13" />
+                <text id="2:2687" name="指标名" x="35" y="0.5" width="20" height="12" />
+              </frame>
+              <frame id="2:2688" name="互动指标" x="136" y="1" width="61" height="13">
+                <frame id="2:2989" name="heart" x="0" y="0" width="13" height="13" />
+                <text id="2:2690" name="指标数值" x="18" y="0" width="18" height="13" />
+                <text id="2:2691" name="指标名" x="41" y="0.5" width="20" height="12" />
+              </frame>
+              <frame id="2:2692" name="互动指标" x="213" y="1" width="71" height="13">
+                <frame id="2:2992" name="bar-chart-2" x="0" y="0" width="13" height="13" />
+                <text id="2:2694" name="指标数值" x="18" y="0" width="28" height="13" />
+                <text id="2:2695" name="指标名" x="51" y="0.5" width="20" height="12" />
+              </frame>
+              <frame id="2:2696" name="收藏标记" x="300" y="0" width="233" height="15">
+                <frame id="2:2995" name="bookmark-check" x="218" y="0" width="15" height="15" />
+              </frame>
+            </frame>
+            <rounded-rectangle id="2:2698" name="角标" x="0" y="0" width="14" height="2" />
+            <rounded-rectangle id="2:2699" name="角标" x="0" y="0" width="2" height="14" />
+            <rounded-rectangle id="2:2700" name="角标" x="547" y="246" width="14" height="2" />
+            <rounded-rectangle id="2:2701" name="角标" x="559" y="234" width="2" height="14" />
+          </frame>
+          <frame id="2:2702" name="推文收藏卡片" x="0" y="260" width="561" height="248">
+            <frame id="2:2703" name="推文头部" x="14" y="14" width="533" height="32">
+              <frame id="2:2704" name="作者头像" x="0" y="0" width="32" height="32">
+                <text id="2:2705" name="头像字母" x="9" y="8.5" width="14" height="15" />
+              </frame>
+              <frame id="2:2706" name="作者信息" x="42" y="1" width="404" height="30">
+                <frame id="2:2707" name="作者名行" x="0" y="0" width="101" height="17">
+                  <text id="2:2708" name="作者" x="0" y="0" width="28" height="17" />
+                  <text id="2:2709" name="账号" x="35" y="2" width="66" height="13" />
+                </frame>
+                <text id="2:2710" name="收藏时间" x="0" y="18" width="144" height="12" />
+              </frame>
+              <text id="2:2711" name="平台" x="456" y="5" width="13" height="22" />
+              <text id="2:2712" name="档案编号" x="479" y="9.5" width="54" height="13" />
+            </frame>
+            <text id="2:2713" name="推文正文" x="14" y="57" width="533" height="48" />
+            <frame id="2:2714" name="媒体附件" x="14" y="116" width="533" height="58">
+              <rounded-rectangle id="2:2715" name="媒体预览" x="0" y="0" width="116" height="58" />
+              <frame id="2:2716" name="媒体信息" x="126" y="0" width="407" height="58">
+                <text id="2:2717" name="媒体类型" x="0" y="8" width="132" height="13" />
+                <text id="2:2718" name="媒体批注" x="0" y="24" width="399" height="13" />
+              </frame>
+            </frame>
+            <frame id="2:2719" name="标签与操作" x="14" y="185" width="533" height="21">
+              <frame id="2:2720" name="推文标签" x="0" y="0" width="110" height="21">
+                <frame id="2:2721" name="标签" x="0" y="0" width="62" height="21">
+                  <text id="2:2722" name="标签内容" x="8" y="4" width="46" height="13" />
+                </frame>
+                <frame id="2:2723" name="标签" x="68" y="0" width="42" height="21">
+                  <text id="2:2724" name="标签内容" x="8" y="4" width="26" height="13" />
+                </frame>
+              </frame>
+              <frame id="2:2725" name="卡片操作" x="495" y="3.5" width="38" height="14">
+                <frame id="2:2998" name="external-link" x="0" y="0" width="14" height="14" />
+                <frame id="2:3001" name="more-horizontal" x="24" y="0" width="14" height="14" />
+              </frame>
+            </frame>
+            <frame id="2:2728" name="互动数据" x="14" y="217" width="533" height="15">
+              <frame id="2:2729" name="互动指标" x="0" y="1" width="55" height="13">
+                <frame id="2:3004" name="message-circle" x="0" y="0" width="13" height="13" />
+                <text id="2:2731" name="指标数值" x="18" y="0" width="12" height="13" />
+                <text id="2:2732" name="指标名" x="35" y="0.5" width="20" height="12" />
+              </frame>
+              <frame id="2:2733" name="互动指标" x="71" y="1" width="61" height="13">
+                <frame id="2:3007" name="repeat-2" x="0" y="0" width="13" height="13" />
+                <text id="2:2735" name="指标数值" x="18" y="0" width="18" height="13" />
+                <text id="2:2736" name="指标名" x="41" y="0.5" width="20" height="12" />
+              </frame>
+              <frame id="2:2737" name="互动指标" x="148" y="1" width="61" height="13">
+                <frame id="2:3010" name="heart" x="0" y="0" width="13" height="13" />
+                <text id="2:2739" name="指标数值" x="18" y="0" width="18" height="13" />
+                <text id="2:2740" name="指标名" x="41" y="0.5" width="20" height="12" />
+              </frame>
+              <frame id="2:2741" name="互动指标" x="225" y="1" width="71" height="13">
+                <frame id="2:3013" name="bar-chart-2" x="0" y="0" width="13" height="13" />
+                <text id="2:2743" name="指标数值" x="18" y="0" width="28" height="13" />
+                <text id="2:2744" name="指标名" x="51" y="0.5" width="20" height="12" />
+              </frame>
+              <frame id="2:2745" name="收藏标记" x="312" y="0" width="221" height="15">
+                <frame id="2:3016" name="bookmark-check" x="206" y="0" width="15" height="15" />
+              </frame>
+            </frame>
+            <rounded-rectangle id="2:2747" name="角标" x="0" y="0" width="14" height="2" />
+            <rounded-rectangle id="2:2748" name="角标" x="0" y="0" width="2" height="14" />
+            <rounded-rectangle id="2:2749" name="角标" x="547" y="246" width="14" height="2" />
+            <rounded-rectangle id="2:2750" name="角标" x="559" y="234" width="2" height="14" />
+          </frame>
+          <frame id="2:2751" name="推文收藏卡片" x="0" y="520" width="561" height="248">
+            <frame id="2:2752" name="推文头部" x="14" y="14" width="533" height="32">
+              <frame id="2:2753" name="作者头像" x="0" y="0" width="32" height="32">
+                <text id="2:2754" name="头像字母" x="9" y="8.5" width="14" height="15" />
+              </frame>
+              <frame id="2:2755" name="作者信息" x="42" y="1" width="404" height="30">
+                <frame id="2:2756" name="作者名行" x="0" y="0" width="132" height="17">
+                  <text id="2:2757" name="作者" x="0" y="0" width="53" height="17" />
+                  <text id="2:2758" name="账号" x="60" y="2" width="72" height="13" />
+                </frame>
+                <text id="2:2759" name="收藏时间" x="0" y="18" width="151" height="12" />
+              </frame>
+              <text id="2:2760" name="平台" x="456" y="5" width="13" height="22" />
+              <text id="2:2761" name="档案编号" x="479" y="9.5" width="54" height="13" />
+            </frame>
+            <text id="2:2762" name="推文正文" x="14" y="57" width="533" height="48" />
+            <frame id="2:2763" name="档案批注" x="14" y="116" width="533" height="58">
+              <frame id="2:3019" name="terminal-square" x="10" y="21.5" width="15" height="15" />
+              <text id="2:2765" name="批注内容" x="35" y="22.5" width="488" height="13" />
+            </frame>
+            <frame id="2:2766" name="标签与操作" x="14" y="185" width="533" height="21">
+              <frame id="2:2767" name="推文标签" x="0" y="0" width="120" height="21">
+                <frame id="2:2768" name="标签" x="0" y="0" width="52" height="21">
+                  <text id="2:2769" name="标签内容" x="8" y="4" width="36" height="13" />
+                </frame>
+                <frame id="2:2770" name="标签" x="58" y="0" width="62" height="21">
+                  <text id="2:2771" name="标签内容" x="8" y="4" width="46" height="13" />
+                </frame>
+              </frame>
+              <frame id="2:2772" name="卡片操作" x="495" y="3.5" width="38" height="14">
+                <frame id="2:3022" name="external-link" x="0" y="0" width="14" height="14" />
+                <frame id="2:3025" name="more-horizontal" x="24" y="0" width="14" height="14" />
+              </frame>
+            </frame>
+            <frame id="2:2775" name="互动数据" x="14" y="217" width="533" height="15">
+              <frame id="2:2776" name="互动指标" x="0" y="1" width="55" height="13">
+                <frame id="2:3028" name="message-circle" x="0" y="0" width="13" height="13" />
+                <text id="2:2778" name="指标数值" x="18" y="0" width="12" height="13" />
+                <text id="2:2779" name="指标名" x="35" y="0.5" width="20" height="12" />
+              </frame>
+              <frame id="2:2780" name="互动指标" x="71" y="1" width="61" height="13">
+                <frame id="2:3031" name="repeat-2" x="0" y="0" width="13" height="13" />
+                <text id="2:2782" name="指标数值" x="18" y="0" width="18" height="13" />
+                <text id="2:2783" name="指标名" x="41" y="0.5" width="20" height="12" />
+              </frame>
+              <frame id="2:2784" name="互动指标" x="148" y="1" width="61" height="13">
+                <frame id="2:3034" name="heart" x="0" y="0" width="13" height="13" />
+                <text id="2:2786" name="指标数值" x="18" y="0" width="18" height="13" />
+                <text id="2:2787" name="指标名" x="41" y="0.5" width="20" height="12" />
+              </frame>
+              <frame id="2:2788" name="互动指标" x="225" y="1" width="71" height="13">
+                <frame id="2:3037" name="bar-chart-2" x="0" y="0" width="13" height="13" />
+                <text id="2:2790" name="指标数值" x="18" y="0" width="28" height="13" />
+                <text id="2:2791" name="指标名" x="51" y="0.5" width="20" height="12" />
+              </frame>
+              <frame id="2:2792" name="收藏标记" x="312" y="0" width="221" height="15">
+                <frame id="2:3040" name="bookmark-check" x="206" y="0" width="15" height="15" />
+              </frame>
+            </frame>
+            <rounded-rectangle id="2:2794" name="角标" x="0" y="0" width="14" height="2" />
+            <rounded-rectangle id="2:2795" name="角标" x="0" y="0" width="2" height="14" />
+            <rounded-rectangle id="2:2796" name="角标" x="547" y="246" width="14" height="2" />
+            <rounded-rectangle id="2:2797" name="角标" x="559" y="234" width="2" height="14" />
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+    <frame id="2:2798" name="继续加载与档案页脚" x="34" y="1366" width="1134" height="90">
+      <frame id="2:2799" name="分页控制" x="0" y="0" width="1134" height="48">
+        <rounded-rectangle id="2:2800" name="左侧轨道" x="0" y="23.5" width="400" height="1" />
+        <frame id="2:2801" name="终端按钮" x="412" y="6" width="190" height="36">
+          <frame id="2:3043" name="chevrons-down" x="45.5" y="11" width="14" height="14" />
+          <text id="2:2803" name="按钮文字" x="67.5" y="10.5" width="77" height="15" />
+        </frame>
+        <frame id="2:2804" name="页码" x="614" y="8" width="108" height="32">
+          <frame id="2:2805" name="页码按钮" x="0" y="0" width="32" height="32">
+            <text id="2:2806" name="页码文字" x="9" y="8.5" width="14" height="15" />
+          </frame>
+          <frame id="2:2807" name="页码按钮" x="38" y="0" width="32" height="32">
+            <text id="2:2808" name="页码文字" x="9" y="8.5" width="14" height="15" />
+          </frame>
+          <frame id="2:2809" name="页码按钮" x="76" y="0" width="32" height="32">
+            <text id="2:2810" name="页码文字" x="9" y="8.5" width="14" height="15" />
+          </frame>
+        </frame>
+        <rounded-rectangle id="2:2811" name="右侧轨道" x="734" y="23.5" width="400" height="1" />
+      </frame>
+      <frame id="2:2812" name="档案元数据" x="0" y="60" width="1134" height="13">
+        <text id="2:2813" name="同步信息" x="0" y="0" width="390" height="13" />
+        <frame id="2:2814" name="页脚状态" x="1063" y="0" width="71" height="13">
+          <frame id="2:3046" name="shield-check" x="0" y="0" width="13" height="13" />
+          <text id="2:2816" name="隐私状态" x="21" y="0.5" width="50" height="12" />
+        </frame>
+      </frame>
+    </frame>
+  </frame>
+</frame>

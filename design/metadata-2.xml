@@ -1,0 +1,456 @@
+<frame id="10:9852" name="终端主体" x="0" y="30" width="1440" height="1170">
+  <frame id="10:9853" name="侧边导航" x="0" y="0" width="238" height="1170">
+    <frame id="10:9854" name="档案标识" x="16" y="22" width="206" height="107">
+      <frame id="10:9855" name="标志" x="0" y="0" width="165" height="40">
+        <frame id="10:9856" name="标志图形" x="0" y="0" width="40" height="40">
+          <text id="10:9857" name="标志字母" x="13" y="5.5" width="14" height="29" />
+        </frame>
+        <frame id="10:9858" name="品牌文字" x="51" y="2" width="114" height="36">
+          <text id="10:9859" name="品牌" x="0" y="0" width="87" height="21" />
+          <text id="10:9860" name="版本" x="0" y="23" width="114" height="13" />
+        </frame>
+      </frame>
+      <frame id="10:9861" name="身份卡" x="0" y="53" width="206" height="54">
+        <text id="10:9862" name="用户" x="11" y="11" width="87" height="16" />
+        <text id="10:9863" name="权限" x="11" y="31" width="123" height="12" />
+      </frame>
+    </frame>
+    <frame id="10:9864" name="主导航" x="16" y="149" width="206" height="270">
+      <frame id="10:9865" name="终端标签" x="0" y="0" width="114" height="15">
+        <text id="10:9866" name="索引" x="0" y="0" width="20" height="15" />
+        <text id="10:9867" name="标签" x="28" y="0" width="86" height="15" />
+      </frame>
+      <frame id="10:9868" name="导航项" x="0" y="22" width="206" height="44">
+        <text id="10:9869" name="序号" x="13" y="15.5" width="24" height="13" />
+        <frame id="10:11010" name="layout-dashboard" x="48" y="14.5" width="15" height="15" />
+        <text id="10:9871" name="名称" x="74" y="14" width="119" height="16" />
+      </frame>
+      <frame id="10:9872" name="导航项" x="0" y="73" width="206" height="44">
+        <text id="10:9873" name="序号" x="13" y="15.5" width="24" height="13" />
+        <frame id="10:11013" name="bookmark" x="48" y="14.5" width="15" height="15" />
+        <text id="10:9875" name="名称" x="74" y="14" width="78" height="16" />
+        <text id="10:9876" name="数量" x="163" y="15.5" width="30" height="13" />
+      </frame>
+      <frame id="10:9877" name="导航项" x="0" y="124" width="206" height="44">
+        <text id="10:9878" name="序号" x="13" y="15.5" width="24" height="13" />
+        <frame id="10:11016" name="folder-kanban" x="48" y="14.5" width="15" height="15" />
+        <text id="10:9880" name="名称" x="74" y="14" width="96" height="16" />
+        <text id="10:9881" name="数量" x="181" y="15.5" width="12" height="13" />
+      </frame>
+      <frame id="10:9882" name="导航项" x="0" y="175" width="206" height="44">
+        <text id="10:9883" name="序号" x="13" y="15.5" width="24" height="13" />
+        <frame id="10:11019" name="tags" x="48" y="14.5" width="15" height="15" />
+        <text id="10:9885" name="名称" x="74" y="14" width="96" height="16" />
+        <text id="10:9886" name="数量" x="181" y="15.5" width="12" height="13" />
+      </frame>
+      <frame id="10:9887" name="导航项" x="0" y="226" width="206" height="44">
+        <text id="10:9888" name="序号" x="13" y="15.5" width="24" height="13" />
+        <frame id="10:11022" name="clock-3" x="48" y="14.5" width="15" height="15" />
+        <text id="10:9890" name="名称" x="74" y="14" width="96" height="16" />
+        <text id="10:9891" name="数量" x="181" y="15.5" width="12" height="13" />
+      </frame>
+    </frame>
+    <frame id="10:9892" name="工具导航" x="16" y="439" width="206" height="168">
+      <frame id="10:9893" name="终端标签" x="0" y="0" width="121" height="15">
+        <text id="10:9894" name="索引" x="0" y="0" width="20" height="15" />
+        <text id="10:9895" name="标签" x="28" y="0" width="93" height="15" />
+      </frame>
+      <frame id="10:9896" name="导航项" x="0" y="22" width="206" height="44">
+        <text id="10:9897" name="序号" x="13" y="15.5" width="24" height="13" />
+        <frame id="10:11025" name="refresh-cw" x="48" y="14.5" width="15" height="15" />
+        <text id="10:9899" name="名称" x="74" y="14" width="119" height="16" />
+      </frame>
+      <frame id="10:9900" name="导航项" x="0" y="73" width="206" height="44">
+        <text id="10:9901" name="序号" x="13" y="15.5" width="24" height="13" />
+        <frame id="10:11028" name="download" x="48" y="14.5" width="15" height="15" />
+        <text id="10:9903" name="名称" x="74" y="14" width="119" height="16" />
+      </frame>
+      <frame id="10:9904" name="导航项" x="0" y="124" width="206" height="44">
+        <text id="10:9905" name="序号" x="13" y="15.5" width="24" height="13" />
+        <frame id="10:11031" name="settings-2" x="48" y="14.5" width="15" height="15" />
+        <text id="10:9907" name="名称" x="74" y="14" width="119" height="16" />
+      </frame>
+    </frame>
+    <frame id="10:9908" name="侧边剩余空间" x="16" y="627" width="206" height="404" />
+    <frame id="10:9909" name="存储状态" x="16" y="1051" width="206" height="69">
+      <frame id="10:9910" name="存储标题" x="11" y="11" width="184" height="12">
+        <text id="10:9911" name="标题" x="0" y="0" width="60" height="12" />
+        <text id="10:9912" name="占用" x="157" y="0" width="27" height="12" />
+      </frame>
+      <frame id="10:9913" name="存储轨道" x="11" y="32" width="184" height="5">
+        <rounded-rectangle id="10:9914" name="存储进度" x="0" y="0" width="123" height="5" />
+      </frame>
+      <text id="10:9915" name="容量" x="11" y="46" width="92" height="12" />
+    </frame>
+    <frame id="10:9916" name="同步状态" x="16" y="1140" width="100" height="12">
+      <rounded-rectangle id="10:9917" name="同步点" x="0" y="2.5" width="7" height="7" />
+      <text id="10:9918" name="同步文字" x="15" y="0" width="85" height="12" />
+    </frame>
+  </frame>
+  <frame id="10:9919" name="档案工作区" x="238" y="0" width="1202" height="1170">
+    <frame id="10:9920" name="页面标题与统计" x="32" y="26" width="1138" height="124">
+      <frame id="10:9921" name="页面标题" x="0" y="0" width="430" height="91">
+        <frame id="10:9922" name="终端标签" x="0" y="2" width="231" height="15">
+          <text id="10:9923" name="索引" x="0" y="0" width="27" height="15" />
+          <text id="10:9924" name="标签" x="35" y="0" width="196" height="15" />
+        </frame>
+        <frame id="10:9925" name="标题行" x="0" y="25" width="197" height="41">
+          <text id="10:9926" name="标题" x="0" y="0" width="136" height="41" />
+          <frame id="10:9927" name="在线徽章" x="148" y="10.5" width="49" height="20">
+            <rounded-rectangle id="10:9928" name="在线点" x="8" y="4" width="5" height="5" />
+            <text id="10:9929" name="在线" x="19" y="4" width="22" height="12" />
+          </frame>
+        </frame>
+        <text id="10:9930" name="说明" x="0" y="74" width="430" height="17" />
+      </frame>
+      <frame id="10:9931" name="统计面板" x="456" y="0" width="682" height="124">
+        <frame id="10:9932" name="终端标签" x="12" y="12" width="198" height="15">
+          <text id="10:9933" name="索引" x="0" y="0" width="27" height="15" />
+          <text id="10:9934" name="标签" x="35" y="0" width="163" height="15" />
+        </frame>
+        <frame id="10:9935" name="统计网格" x="12" y="36" width="658" height="76">
+          <frame id="10:9936" name="档案统计" x="0" y="0" width="157.75" height="78">
+            <text id="10:9937" name="统计名" x="13" y="10" width="60" height="12" />
+            <frame id="10:9938" name="统计值" x="13" y="27" width="131.75" height="32">
+              <text id="10:9939" name="数值" x="0" y="0" width="29" height="32" />
+              <text id="10:9940" name="说明" x="95.75" y="21" width="36" height="11" />
+            </frame>
+            <rounded-rectangle id="10:9941" name="统计标线" x="13" y="64" width="131.75" height="2" />
+          </frame>
+          <frame id="10:9942" name="档案统计" x="166.75" y="0" width="157.75" height="78">
+            <text id="10:9943" name="统计名" x="13" y="10" width="44" height="12" />
+            <frame id="10:9944" name="统计值" x="13" y="27" width="131.75" height="32">
+              <text id="10:9945" name="数值" x="0" y="0" width="44" height="32" />
+              <text id="10:9946" name="说明" x="104.75" y="21" width="27" height="11" />
+            </frame>
+            <rounded-rectangle id="10:9947" name="统计标线" x="13" y="64" width="131.75" height="2" />
+          </frame>
+          <frame id="10:9948" name="档案统计" x="333.5" y="0" width="157.75" height="78">
+            <text id="10:9949" name="统计名" x="13" y="10" width="33" height="12" />
+            <frame id="10:9950" name="统计值" x="13" y="27" width="131.75" height="32">
+              <text id="10:9951" name="数值" x="0" y="0" width="29" height="32" />
+              <text id="10:9952" name="说明" x="104.75" y="21" width="27" height="11" />
+            </frame>
+            <rounded-rectangle id="10:9953" name="统计标线" x="13" y="64" width="131.75" height="2" />
+          </frame>
+          <frame id="10:9954" name="档案统计" x="500.25" y="0" width="157.75" height="78">
+            <text id="10:9955" name="统计名" x="13" y="10" width="54" height="12" />
+            <frame id="10:9956" name="统计值" x="13" y="27" width="131.75" height="32">
+              <text id="10:9957" name="数值" x="0" y="0" width="29" height="32" />
+              <text id="10:9958" name="说明" x="95.75" y="21" width="36" height="11" />
+            </frame>
+            <rounded-rectangle id="10:9959" name="统计标线" x="13" y="64" width="131.75" height="2" />
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+    <frame id="10:9960" name="合集管理区" x="32" y="170" width="1138" height="948">
+      <frame id="10:9961" name="搜索筛选" x="0" y="0" width="1138" height="42">
+        <frame id="10:9962" name="搜索框" x="0" y="0" width="678" height="42">
+          <frame id="10:11034" name="search" x="13" y="13.5" width="15" height="15" />
+          <text id="10:9964" name="搜索提示" x="39" y="13" width="598" height="16" />
+          <text id="10:9965" name="快捷键" x="648" y="15" width="17" height="12" />
+        </frame>
+        <frame id="10:9966" name="终端按钮" x="687" y="0" width="112" height="36">
+          <frame id="10:11037" name="arrow-down-wide-narrow" x="23.5" y="11.5" width="13" height="13" />
+          <text id="10:9968" name="按钮文字" x="44.5" y="10.5" width="44" height="15" />
+        </frame>
+        <frame id="10:9969" name="终端按钮" x="808" y="0" width="106" height="36">
+          <frame id="10:11040" name="tags" x="20.5" y="11.5" width="13" height="13" />
+          <text id="10:9971" name="按钮文字" x="41.5" y="10.5" width="44" height="15" />
+        </frame>
+        <frame id="10:9972" name="终端按钮" x="923" y="0" width="110" height="36">
+          <frame id="10:11043" name="sliders-horizontal" x="22.5" y="11.5" width="13" height="13" />
+          <text id="10:9974" name="按钮文字" x="43.5" y="10.5" width="44" height="15" />
+        </frame>
+        <frame id="10:9975" name="结果计数" x="1042" y="0" width="96" height="36">
+          <text id="10:9976" name="结果" x="10" y="12" width="76" height="12" />
+        </frame>
+      </frame>
+      <frame id="10:9977" name="合集工具栏" x="0" y="54" width="1138" height="36">
+        <frame id="10:9978" name="合集视图筛选" x="0" y="9" width="269" height="18">
+          <frame id="10:9979" name="标签" x="0" y="0" width="56" height="18">
+            <text id="10:9980" name="标签文字" x="8" y="3" width="40" height="12" />
+          </frame>
+          <frame id="10:9981" name="标签" x="64" y="0" width="60" height="18">
+            <text id="10:9982" name="标签文字" x="8" y="3" width="44" height="12" />
+          </frame>
+          <frame id="10:9983" name="标签" x="132" y="0" width="69" height="18">
+            <text id="10:9984" name="标签文字" x="8" y="3" width="53" height="12" />
+          </frame>
+          <frame id="10:9985" name="标签" x="209" y="0" width="60" height="18">
+            <text id="10:9986" name="标签文字" x="8" y="3" width="44" height="12" />
+          </frame>
+        </frame>
+        <frame id="10:9987" name="终端按钮" x="1026" y="0" width="112" height="36">
+          <frame id="10:11046" name="folder-plus" x="23.5" y="11.5" width="13" height="13" />
+          <text id="10:9989" name="按钮文字" x="44.5" y="10.5" width="44" height="15" />
+        </frame>
+      </frame>
+      <frame id="10:9990" name="合集区域标题" x="0" y="102" width="1138" height="15">
+        <frame id="10:9991" name="终端标签" x="0" y="0" width="198" height="15">
+          <text id="10:9992" name="索引" x="0" y="0" width="27" height="15" />
+          <text id="10:9993" name="标签" x="35" y="0" width="163" height="15" />
+        </frame>
+        <text id="10:9994" name="排序状态" x="1024" y="0" width="114" height="12" />
+      </frame>
+      <frame id="10:9995" name="合集网格" x="0" y="129" width="1138" height="128">
+        <frame id="10:9996" name="主题合集" x="0" y="0" width="277" height="128">
+          <frame id="10:9997" name="合集顶部" x="13" y="13" width="251" height="28">
+            <frame id="10:9998" name="合集图标" x="0" y="0" width="28" height="28">
+              <text id="10:9999" name="图标符号" x="7.5" y="5" width="13" height="18" />
+            </frame>
+            <text id="10:10000" name="合集编号" x="213" y="8" width="38" height="12" />
+          </frame>
+          <frame id="10:10001" name="合集标题行" x="13" y="50" width="251" height="19">
+            <text id="10:10002" name="合集标题" x="0" y="0" width="78" height="18" />
+            <text id="10:10003" name="收藏数量" x="227" y="2" width="24" height="17" />
+          </frame>
+          <frame id="10:10004" name="合集元数据" x="13" y="78" width="251" height="12">
+            <text id="10:10005" name="未读数量" x="0" y="0" width="35" height="12" />
+            <text id="10:10006" name="更新时间" x="196" y="0" width="55" height="11" />
+          </frame>
+          <rounded-rectangle id="10:10007" name="信号条" x="13" y="99" width="251" height="2" />
+        </frame>
+        <frame id="10:10008" name="主题合集" x="287" y="0" width="277" height="128">
+          <frame id="10:10009" name="合集顶部" x="13" y="13" width="251" height="28">
+            <frame id="10:10010" name="合集图标" x="0" y="0" width="28" height="28">
+              <text id="10:10011" name="图标符号" x="8" y="5" width="12" height="18" />
+            </frame>
+            <text id="10:10012" name="合集编号" x="213" y="8" width="38" height="12" />
+          </frame>
+          <frame id="10:10013" name="合集标题行" x="13" y="50" width="251" height="19">
+            <text id="10:10014" name="合集标题" x="0" y="0" width="60" height="18" />
+            <text id="10:10015" name="收藏数量" x="227" y="2" width="24" height="17" />
+          </frame>
+          <frame id="10:10016" name="合集元数据" x="13" y="78" width="251" height="12">
+            <text id="10:10017" name="未读数量" x="0" y="0" width="29" height="12" />
+            <text id="10:10018" name="更新时间" x="212" y="0" width="39" height="11" />
+          </frame>
+          <rounded-rectangle id="10:10019" name="信号条" x="13" y="99" width="251" height="2" />
+        </frame>
+        <frame id="10:10020" name="主题合集" x="574" y="0" width="277" height="128">
+          <frame id="10:10021" name="合集顶部" x="13" y="13" width="251" height="28">
+            <frame id="10:10022" name="合集图标" x="0" y="0" width="28" height="28">
+              <text id="10:10023" name="图标符号" x="9.5" y="5" width="9" height="18" />
+            </frame>
+            <text id="10:10024" name="合集编号" x="213" y="8" width="38" height="12" />
+          </frame>
+          <frame id="10:10025" name="合集标题行" x="13" y="50" width="251" height="19">
+            <text id="10:10026" name="合集标题" x="0" y="0" width="60" height="18" />
+            <text id="10:10027" name="收藏数量" x="235" y="2" width="16" height="17" />
+          </frame>
+          <frame id="10:10028" name="合集元数据" x="13" y="78" width="251" height="12">
+            <text id="10:10029" name="未读数量" x="0" y="0" width="29" height="12" />
+            <text id="10:10030" name="更新时间" x="196" y="0" width="55" height="11" />
+          </frame>
+          <rounded-rectangle id="10:10031" name="信号条" x="13" y="99" width="251" height="2" />
+        </frame>
+        <frame id="10:10032" name="主题合集" x="861" y="0" width="277" height="128">
+          <frame id="10:10033" name="合集顶部" x="13" y="13" width="251" height="28">
+            <frame id="10:10034" name="合集图标" x="0" y="0" width="28" height="28">
+              <text id="10:10035" name="图标符号" x="8" y="5" width="12" height="18" />
+            </frame>
+            <text id="10:10036" name="合集编号" x="213" y="8" width="38" height="12" />
+          </frame>
+          <frame id="10:10037" name="合集标题行" x="13" y="50" width="251" height="19">
+            <text id="10:10038" name="合集标题" x="0" y="0" width="60" height="18" />
+            <text id="10:10039" name="收藏数量" x="235" y="2" width="16" height="17" />
+          </frame>
+          <frame id="10:10040" name="合集元数据" x="13" y="78" width="251" height="12">
+            <text id="10:10041" name="未读数量" x="0" y="0" width="29" height="12" />
+            <text id="10:10042" name="更新时间" x="205" y="0" width="46" height="11" />
+          </frame>
+          <rounded-rectangle id="10:10043" name="信号条" x="13" y="99" width="251" height="2" />
+        </frame>
+      </frame>
+      <frame id="10:10044" name="当前合集工作台" x="0" y="269" width="1138" height="679">
+        <frame id="10:10045" name="合集详情" x="0" y="0" width="286" height="679">
+          <frame id="10:10046" name="终端标签" x="15" y="15" width="108" height="15">
+            <text id="10:10047" name="索引" x="0" y="0" width="27" height="15" />
+            <text id="10:10048" name="标签" x="35" y="0" width="73" height="15" />
+          </frame>
+          <frame id="10:10049" name="详情标题" x="15" y="43" width="115" height="43">
+            <text id="10:10050" name="合集名称" x="0" y="0" width="115" height="26" />
+            <text id="10:10051" name="合集编号" x="0" y="31" width="92" height="12" />
+          </frame>
+          <text id="10:10052" name="合集说明" x="15" y="99" width="256" height="36" />
+          <frame id="10:10053" name="详情数据" x="15" y="148" width="256" height="61">
+            <frame id="10:10054" name="详情数据行" x="0" y="0" width="256" height="15">
+              <text id="10:10055" name="字段" x="0" y="0" width="38" height="12" />
+              <text id="10:10056" name="值" x="236" y="0" width="20" height="15" />
+            </frame>
+            <frame id="10:10057" name="详情数据行" x="0" y="23" width="256" height="15">
+              <text id="10:10058" name="字段" x="0" y="0" width="33" height="12" />
+              <text id="10:10059" name="值" x="242" y="0" width="14" height="15" />
+            </frame>
+            <frame id="10:10060" name="详情数据行" x="0" y="46" width="256" height="15">
+              <text id="10:10061" name="字段" x="0" y="0" width="38" height="12" />
+              <text id="10:10062" name="值" x="190" y="0" width="66" height="15" />
+            </frame>
+          </frame>
+          <frame id="10:10063" name="合集标签" x="15" y="222" width="234" height="18">
+            <frame id="10:10064" name="标签" x="0" y="0" width="49" height="18">
+              <text id="10:10065" name="标签文字" x="8" y="3" width="33" height="12" />
+            </frame>
+            <frame id="10:10066" name="标签" x="55" y="0" width="58" height="18">
+              <text id="10:10067" name="标签文字" x="8" y="3" width="42" height="12" />
+            </frame>
+            <frame id="10:10068" name="标签" x="119" y="0" width="58" height="18">
+              <text id="10:10069" name="标签文字" x="8" y="3" width="42" height="12" />
+            </frame>
+            <frame id="10:10070" name="标签" x="183" y="0" width="51" height="18">
+              <text id="10:10071" name="标签文字" x="8" y="3" width="35" height="12" />
+            </frame>
+          </frame>
+          <rounded-rectangle id="10:10072" name="详情分隔线" x="15" y="253" width="256" height="1" />
+          <text id="10:10073" name="自动规则标题" x="15" y="267" width="98" height="12" />
+          <frame id="10:10074" name="自动规则" x="15" y="292" width="256" height="48">
+            <text id="10:10075" name="规则表达式" x="10" y="10" width="236" height="12" />
+            <text id="10:10076" name="规则状态" x="10" y="27" width="104" height="11" />
+          </frame>
+          <frame id="10:10077" name="详情操作" x="15" y="353" width="256" height="80">
+            <frame id="10:10078" name="终端按钮" x="0" y="0" width="256" height="36">
+              <frame id="10:11049" name="check-check" x="84.5" y="11.5" width="13" height="13" />
+              <text id="10:10080" name="按钮文字" x="105.5" y="10.5" width="66" height="15" />
+            </frame>
+            <frame id="10:10081" name="终端按钮" x="0" y="44" width="256" height="36">
+              <frame id="10:11052" name="settings-2" x="84.5" y="11.5" width="13" height="13" />
+              <text id="10:10083" name="按钮文字" x="105.5" y="10.5" width="66" height="15" />
+            </frame>
+          </frame>
+        </frame>
+        <frame id="10:10084" name="合集记录区" x="298" y="0" width="840" height="679">
+          <frame id="10:10085" name="记录区标题" x="0" y="0" width="840" height="36">
+            <frame id="10:10086" name="终端标签" x="0" y="10.5" width="194" height="15">
+              <text id="10:10087" name="索引" x="0" y="0" width="27" height="15" />
+              <text id="10:10088" name="标签" x="35" y="0" width="159" height="15" />
+            </frame>
+            <frame id="10:10089" name="记录操作" x="657" y="0" width="183" height="36">
+              <text id="10:10090" name="未读汇总" x="0" y="0" width="49" height="12" />
+              <frame id="10:10091" name="终端按钮" x="57" y="0" width="126" height="36">
+                <frame id="10:11055" name="check-check" x="19.5" y="11.5" width="13" height="13" />
+                <text id="10:10093" name="按钮文字" x="40.5" y="10.5" width="66" height="15" />
+              </frame>
+            </frame>
+          </frame>
+          <frame id="10:10094" name="合集记录" x="0" y="45" width="840" height="86">
+            <frame id="10:10095" name="选择框" x="13" y="35.5" width="15" height="15" />
+            <frame id="10:10096" name="记录正文" x="40" y="14" width="585" height="58">
+              <frame id="10:10097" name="记录标题行" x="0" y="0" width="585" height="16">
+                <text id="10:10098" name="记录标题" x="0" y="0" width="555" height="16" />
+                <frame id="10:10099" name="阅读状态" x="555" y="0" width="30" height="12">
+                  <rounded-rectangle id="10:10100" name="状态点" x="0" y="3" width="6" height="6" />
+                  <text id="10:10101" name="状态文字" x="12" y="0" width="18" height="12" />
+                </frame>
+              </frame>
+              <frame id="10:10102" name="记录元数据" x="0" y="22" width="165" height="12">
+                <text id="10:10103" name="作者" x="0" y="0" width="32" height="11" />
+                <text id="10:10104" name="账号" x="40" y="0" width="65" height="12" />
+                <text id="10:10105" name="收藏时间" x="113" y="0" width="52" height="11" />
+              </frame>
+              <frame id="10:10106" name="记录标签" x="0" y="40" width="113" height="18">
+                <frame id="10:10107" name="标签" x="0" y="0" width="49" height="18">
+                  <text id="10:10108" name="标签文字" x="8" y="3" width="33" height="12" />
+                </frame>
+                <frame id="10:10109" name="标签" x="55" y="0" width="58" height="18">
+                  <text id="10:10110" name="标签文字" x="8" y="3" width="42" height="12" />
+                </frame>
+              </frame>
+            </frame>
+            <text id="10:10111" name="互动数据" x="637" y="37" width="190" height="12" />
+          </frame>
+          <frame id="10:10112" name="合集记录" x="0" y="140" width="840" height="86">
+            <frame id="10:10113" name="选择框" x="13" y="35.5" width="15" height="15" />
+            <frame id="10:10114" name="记录正文" x="40" y="14" width="585" height="58">
+              <frame id="10:10115" name="记录标题行" x="0" y="0" width="585" height="16">
+                <text id="10:10116" name="记录标题" x="0" y="0" width="555" height="16" />
+                <frame id="10:10117" name="阅读状态" x="555" y="0" width="30" height="12">
+                  <rounded-rectangle id="10:10118" name="状态点" x="0" y="3" width="6" height="6" />
+                  <text id="10:10119" name="状态文字" x="12" y="0" width="18" height="12" />
+                </frame>
+              </frame>
+              <frame id="10:10120" name="记录元数据" x="0" y="22" width="133" height="12">
+                <text id="10:10121" name="作者" x="0" y="0" width="27" height="11" />
+                <text id="10:10122" name="账号" x="35" y="0" width="38" height="12" />
+                <text id="10:10123" name="收藏时间" x="81" y="0" width="52" height="11" />
+              </frame>
+              <frame id="10:10124" name="记录标签" x="0" y="40" width="106" height="18">
+                <frame id="10:10125" name="标签" x="0" y="0" width="51" height="18">
+                  <text id="10:10126" name="标签文字" x="8" y="3" width="35" height="12" />
+                </frame>
+                <frame id="10:10127" name="标签" x="57" y="0" width="49" height="18">
+                  <text id="10:10128" name="标签文字" x="8" y="3" width="33" height="12" />
+                </frame>
+              </frame>
+            </frame>
+            <text id="10:10129" name="互动数据" x="637" y="37" width="190" height="12" />
+          </frame>
+          <frame id="10:10130" name="合集记录" x="0" y="235" width="840" height="86">
+            <frame id="10:10131" name="选择框" x="13" y="35.5" width="15" height="15" />
+            <frame id="10:10132" name="记录正文" x="40" y="14" width="585" height="58">
+              <frame id="10:10133" name="记录标题行" x="0" y="0" width="585" height="16">
+                <text id="10:10134" name="记录标题" x="0" y="0" width="555" height="16" />
+                <frame id="10:10135" name="阅读状态" x="555" y="0" width="30" height="12">
+                  <rounded-rectangle id="10:10136" name="状态点" x="0" y="3" width="6" height="6" />
+                  <text id="10:10137" name="状态文字" x="12" y="0" width="18" height="12" />
+                </frame>
+              </frame>
+              <frame id="10:10138" name="记录元数据" x="0" y="22" width="166" height="12">
+                <text id="10:10139" name="作者" x="0" y="0" width="18" height="11" />
+                <text id="10:10140" name="账号" x="26" y="0" width="60" height="12" />
+                <text id="10:10141" name="收藏时间" x="94" y="0" width="72" height="11" />
+              </frame>
+              <frame id="10:10142" name="记录标签" x="0" y="40" width="106" height="18">
+                <frame id="10:10143" name="标签" x="0" y="0" width="49" height="18">
+                  <text id="10:10144" name="标签文字" x="8" y="3" width="33" height="12" />
+                </frame>
+                <frame id="10:10145" name="标签" x="55" y="0" width="51" height="18">
+                  <text id="10:10146" name="标签文字" x="8" y="3" width="35" height="12" />
+                </frame>
+              </frame>
+            </frame>
+            <text id="10:10147" name="互动数据" x="637" y="37" width="190" height="12" />
+          </frame>
+          <frame id="10:10148" name="合集记录" x="0" y="330" width="840" height="86">
+            <frame id="10:10149" name="选择框" x="13" y="35.5" width="15" height="15" />
+            <frame id="10:10150" name="记录正文" x="40" y="14" width="585" height="58">
+              <frame id="10:10151" name="记录标题行" x="0" y="0" width="585" height="16">
+                <text id="10:10152" name="记录标题" x="0" y="0" width="555" height="16" />
+                <frame id="10:10153" name="阅读状态" x="555" y="0" width="30" height="12">
+                  <rounded-rectangle id="10:10154" name="状态点" x="0" y="3" width="6" height="6" />
+                  <text id="10:10155" name="状态文字" x="12" y="0" width="18" height="12" />
+                </frame>
+              </frame>
+              <frame id="10:10156" name="记录元数据" x="0" y="22" width="166" height="12">
+                <text id="10:10157" name="作者" x="0" y="0" width="18" height="11" />
+                <text id="10:10158" name="账号" x="26" y="0" width="65" height="12" />
+                <text id="10:10159" name="收藏时间" x="99" y="0" width="67" height="11" />
+              </frame>
+              <frame id="10:10160" name="记录标签" x="0" y="40" width="95" height="18">
+                <frame id="10:10161" name="标签" x="0" y="0" width="49" height="18">
+                  <text id="10:10162" name="标签文字" x="8" y="3" width="33" height="12" />
+                </frame>
+                <frame id="10:10163" name="标签" x="55" y="0" width="40" height="18">
+                  <text id="10:10164" name="标签文字" x="8" y="3" width="24" height="12" />
+                </frame>
+              </frame>
+            </frame>
+            <text id="10:10165" name="互动数据" x="637" y="37" width="190" height="12" />
+          </frame>
+          <frame id="10:10166" name="合集分页" x="0" y="425" width="840" height="32">
+            <text id="10:10167" name="显示范围" x="10" y="10" width="103" height="12" />
+            <text id="10:10168" name="页码" x="698" y="8.5" width="132" height="15" />
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+    <frame id="10:10169" name="档案页脚" x="32" y="1138" width="1138" height="12">
+      <text id="10:10170" name="同步信息" x="0" y="0" width="351" height="12" />
+      <frame id="10:10171" name="隐私状态" x="1074" y="0" width="64" height="12">
+        <frame id="10:11058" name="shield-check" x="0" y="0" width="12" height="12" />
+        <text id="10:10173" name="隐私文字" x="19" y="0.5" width="45" height="11" />
+      </frame>
+    </frame>
+  </frame>
+</frame>
