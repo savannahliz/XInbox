@@ -9,7 +9,7 @@ INBOX_ARCH="$(uname -m)"
 if [[ "$INBOX_ARCH" != arm64 ]]; then echo '此构建脚本当前针对 Apple Silicon。'; exit 1; fi
 INBOX_BUILD="$INBOX_ROOT/build/desktop"
 INBOX_APP="$INBOX_ROOT/dist/INbox.app"
-INBOX_DMG="$INBOX_ROOT/dist/INbox-$INBOX_VERSION-arm64.dmg"
+INBOX_DMG="$INBOX_ROOT/dist/XInbox-$INBOX_VERSION-arm64.dmg"
 mkdir -p "$INBOX_BUILD/module-cache" "$INBOX_BUILD/INbox.iconset" "$INBOX_ROOT/dist"
 rm -rf "$INBOX_APP" "$INBOX_BUILD/image"
 mkdir -p "$INBOX_APP/Contents/MacOS" "$INBOX_APP/Contents/Resources/app/desktop" "$INBOX_APP/Contents/Resources/runtime"
@@ -49,5 +49,5 @@ Codex / DeepSeek Harness 使用本机已安装 Runtime，在终端设置中连�
 TXT
 hdiutil create -volname INbox -srcfolder "$INBOX_BUILD/image" -format UDZO -ov "$INBOX_DMG"
 hdiutil verify "$INBOX_DMG"
-shasum -a 256 "$INBOX_DMG" > "$INBOX_DMG.sha256"
+(cd "$INBOX_ROOT/dist" && shasum -a 256 "$(basename "$INBOX_DMG")" > "$(basename "$INBOX_DMG").sha256")
 echo "$INBOX_DMG"

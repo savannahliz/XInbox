@@ -23,6 +23,9 @@ test('桌面后台独立启动、使用独立数据目录，退出后释放端�
   const canvasScript=await(await fetch(origin+'/research-canvas.js')).text();assert.match(canvasScript,/canvas-edge-editor/);
   const books=await (await fetch(origin+'/api/bookmarks',{headers:{Cookie:cookie}})).json();
   assert.equal(books.total,12);assert.equal(books.demo,true);
+  const status=await (await fetch(origin+'/api/status',{headers:{Cookie:cookie}})).json();
+  assert.equal(status.account,null);assert.equal(status.connected,false);
+  assert.equal(status.ai.configured,false);assert.equal(status.jev.configured,false);
   assert.ok(existsSync(join(data,'local.key')));
   const exit=once(child,'exit');child.kill('SIGTERM');assert.equal((await exit)[0],0);
   await assert.rejects(fetch(origin),/fetch failed/);
