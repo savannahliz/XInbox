@@ -129,7 +129,7 @@ export function createAssistant(store, library, fetcher = fetch) {
     if (!['中文', 'English'].includes(language)) throw new Error('请选择翻译语言。');
     const task = input.kind === 'translation' ? `把资料完整翻译为${language}，不省略、不总结，保留段落、标题、列表和代码。只输出译文。` : input.kind === 'summary' ? '总结全文的关键观点、证据、结论与可执行要点，保留重要限定条件。' : [prompt?.text, question].filter(Boolean).join('\n\n');
     const label = input.kind === 'translation' ? '全文翻译 · ' + language : input.kind === 'summary' ? 'AI 全文总结' : (prompt ? '/' + prompt.keyword + (question ? ' ' + question : '') : question);
-    const job = { id: randomUUID(), phase: 'running', kind: input.kind, language: input.kind === 'translation' ? language : null, label, done: 0, total: 0, text: '', sources: ctx.books.map((b, i) => ({ number: i + 1, id: b.id, title: b.title })), characters: ctx.books.reduce((sum, b) => sum + [...(b.text || '')].length, 0), startedAt: new Date().toISOString() };
+    const job = { id: randomUUID(), phase: 'running', kind: input.kind, language: input.kind === 'translation' ? language : null, label, done: 0, total: 0, stage: '准备资料', text: '', sources: ctx.books.map((b, i) => ({ number: i + 1, id: b.id, title: b.title })), characters: ctx.books.reduce((sum, b) => sum + [...(b.text || '')].length, 0), startedAt: new Date().toISOString() };
     const history = value.messages.filter(m => m.kind === 'chat').slice(-6).map(m => ({ role: m.role, text: m.text.slice(0, 2000) }));
     value.messages.push({ role: 'user', kind: input.kind, text: label, at: job.startedAt });
     value.messages = value.messages.slice(-40); value.job = job;
@@ -151,7 +151,7 @@ export function createAssistant(store, library, fetcher = fetch) {
     try {
       if (!job.characters) throw new Error('文章没有可读取的正文。');
       if (job.kind === 'translation') {
-        const chunks = splitText(ctx.books[0].text, 3000); job.total = chunks.length; save();
+        const chunks = splitText(ctx.books[0].text, 3000); job.total = chunks.length; job.stage = '翻译正文'; save();
         const results = [];
         for (let i = 0; i < chunks.length; i++) {
           results.push(await request(task + `\n这是全文第 ${i + 1}/${chunks.length} 段，逐段完整翻译。`, JSON.stringify({ title: ctx.books[0].title, text: chunks[i] })));
@@ -161,13 +161,17 @@ export function createAssistant(store, library, fetcher = fetch) {
         const documents = ctx.books.flatMap((b, i) => splitText(b.text || '').map((text, part) => ({ source: i + 1, title: b.title, part: part + 1, text })));
         const fullInput = JSON.stringify({ history, documents, ...(ctx.scope.notes ? {canvasNotes:ctx.scope.notes} : {}) });
         if ([...fullInput].length <= 14000) {
-          job.total = 1; save(); job.text = await request(task, fullInput);
+          job.total = 1; job.stage = '生成回答'; save(); job.text = await request(task, fullInput);
         } else {
-          job.total = documents.length + 1; save();
+          job.total = documents.length + 1; job.stage = '提取要点'; save();
           let notes = [];
-          for (const doc of documents) notes.push(await request('为下面任务提取本段相关事实、原句及限定条件；保留 [来源编号]，不相关时说明无相关证据。压缩到 600 字以内。任务：\n' + task, JSON.stringify({ history, documents: [doc] }), 2000));
+          for (const doc of documents) {
+            job.currentSource = { number: doc.source, title: doc.title, part: doc.part }; save();
+            notes.push(await request('为下面任务提取本段相关事实、原句及限定条件；保留 [来源编号]，不相关时说明无相关证据。压缩到 600 字以内。任务：\n' + task, JSON.stringify({ history, documents: [doc] }), 2000));
+          }
           // Hierarchical reduction covers all notes without cutting off the tail.
           while ([...notes.join('\n\n')].length > 12000) {
+            job.stage = '合并要点'; job.currentSource = null; save();
             const batches = splitText(notes.join('\n\n'), 6000), next = [];
             job.total += batches.length; save();
             for (const text of batches) {
@@ -177,6 +181,7 @@ export function createAssistant(store, library, fetcher = fetch) {
             }
             notes = next;
           }
+          job.stage = '生成回答'; job.currentSource = null; save();
           job.text = await request(task + '\n以下笔记已覆盖所选范围全部正文。回答须保留来源编号。', JSON.stringify({ history, notes, ...(ctx.scope.notes ? {canvasNotes:ctx.scope.notes} : {}) }));
         }
       }

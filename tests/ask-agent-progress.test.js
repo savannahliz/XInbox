@@ -1,0 +1,32 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import { readFileSync } from 'node:fs';
+import { JSDOM } from 'jsdom';
+import { drawerGeometry } from '../public/ai-assistant.js';
+
+test('Ask Agent 显示 Quick AI 处理阶段，并默认展开可手动收起的 Agent 执行记录', async () => {
+  const dom = new JSDOM('<main></main>', { url: 'http://localhost', runScripts: 'outside-only' }), w = dom.window;
+  Object.defineProperty(w.document.documentElement, 'clientWidth', { value: 1024 });
+  w.drawerGeometry = drawerGeometry;
+  const icons = readFileSync(new URL('../public/panel-icons.js', import.meta.url), 'utf8').replaceAll('export function', 'function');
+  const source = readFileSync(new URL('../public/ask-agent.js', import.meta.url), 'utf8').replace(/^import .*;\n/gm, '').replaceAll('export function', 'function');
+  w.eval(icons + '\n' + source + '\nwindow.createAskAgent = createAskAgent;');
+  let quick = { messages: [{ role: 'user', text: '总结今天的收藏' }], job: { phase: 'running', stage: '提取要点', done: 2, total: 6, sources: [{ id: 'a', title: '资料 A' }], currentSource: { number: 1, title: '资料 A' } } };
+  const session = { id: 'session', messages: [], events: [{ text: 'MCP 已连接' }], job: { phase: 'running', text: '' } };
+  const state = { catalog: { demo: false, bookmarks: [{ id: 'a', title: '资料 A' }], categories: [] }, settings: { prompts: [] }, status: { ai: { configured: true } } };
+  const agent = w.createAskAgent({ state, api: async path => path.startsWith('/api/ai/thread') ? quick : path === '/api/agents/start' || path.startsWith('/api/agents/session') ? session : {}, esc: value => String(value), toast: () => {}, mountSelectMenus: () => {}, refresh: async () => {} });
+  await agent.open({ type: 'all' });
+  const drawer = w.document.querySelector('#agent-drawer');
+  assert.match(drawer.querySelector('.ai-messages').textContent, /提取要点.*2\/6 次模型调用.*资料 A/);
+  agent.close(); quick = { messages: [], job: null }; await agent.open({ type: 'all' });
+  const mode = drawer.querySelector('#agent-mode'); mode.value = 'codex'; mode.dispatchEvent(new w.Event('change', { bubbles: true }));
+  await new Promise(resolve => setTimeout(resolve, 0));
+  drawer.querySelector('textarea').value = '查找资料';
+  drawer.querySelector('form.ai-question-form').dispatchEvent(new w.Event('submit', { bubbles: true, cancelable: true }));
+  await new Promise(resolve => setTimeout(resolve, 0));
+  assert.equal(drawer.querySelector('.agent-events').open, true);
+  drawer.querySelector('.agent-events').open = false;
+  await new Promise(resolve => setTimeout(resolve, 550));
+  assert.equal(drawer.querySelector('.agent-events').open, false);
+  agent.close(); dom.window.close();
+});

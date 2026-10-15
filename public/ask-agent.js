@@ -23,9 +23,14 @@ export function createAskAgent({state,api,esc,toast,mountSelectMenus,refresh,nav
   function paint() {
     if(drawer.hidden)return;
     const messages=drawer.querySelector('.ai-messages');
+    const eventsOpen=messages.querySelector('.agent-events')?.open ?? true;
     messages.innerHTML=(value?.messages || []).map((m,i)=>`<article class="ai-message ${m.role}"><header>${m.role==='user'?'YOU':mode==='quick'?'QUICK AI':mode==='codex'?'CODEX':'DEEPSEEK HARNESS'}</header><div class="ai-answer">${esc(m.text)}</div>${m.role==='assistant'&&onNote?button('添加到白板','note',`data-message="${i}"`):''}</article>`).join('') || '<p class="ai-empty">选择问题，或输入自己的任务</p>';
+    if(busy()&&mode==='quick'){
+      const job=value.job,progress=[`${job.sources?.length || 0} 篇资料`,job.stage || '准备资料',job.total?`${job.done}/${job.total} 次模型调用`:'',job.currentSource?`来源 ${job.currentSource.number} · ${job.currentSource.title}`:''].filter(Boolean).join(' · ');
+      messages.innerHTML+=`<article class="ai-message assistant"><header>处理进度</header><div class="ai-answer">${esc(progress)}</div></article>`;
+    }
     if(busy()&&value.job.text)messages.innerHTML+=`<article class="ai-message assistant"><header>处理中</header><div class="ai-answer">${esc(value.job.text)}</div></article>`;
-    if(mode!=='quick'&&value?.events?.length)messages.innerHTML+=`<details class="agent-events"><summary>执行过程 · ${value.events.length}</summary>${value.events.slice(-25).map(e=>`<p>${esc(e.text)}</p>`).join('')}</details>`;
+    if(mode!=='quick'&&value?.events?.length)messages.innerHTML+=`<details class="agent-events" ${eventsOpen?'open':''}><summary>执行过程 · ${value.events.length}</summary>${value.events.slice(-25).map(e=>`<p>${esc(e.text)}</p>`).join('')}</details>`;
     messages.scrollTop=messages.scrollHeight;
     drawer.querySelector('.ai-job-status').innerHTML=value?.job?`<span>${esc({running:'执行中',done:'完成',error:'执行失败',stopped:'已取消',interrupted:'上次执行已中断'}[value.job.phase] || value.job.phase)}${value.job.error?' · '+esc(value.job.error):''}</span>${busy()?button('取消任务','cancel'):''}`:'';
     drawer.querySelector('[type="submit"]').disabled=busy() || mode==='quick'&&!state.status.ai.configured;

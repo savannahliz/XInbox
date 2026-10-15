@@ -98,6 +98,23 @@ test('大范围提问逐层合并全部材料，不截断最后一批；后续�
   await a.request('/api/ai/ask', { scope, kind: 'chat', question: '如何应用刚才的结论？' }); await a.finish(scope);
   assert.equal(followupHistory.length, 2); assert.equal(followupHistory[0].role, 'user'); assert.match(followupHistory[1].text, /TAIL_EVIDENCE/);
 });
+test('大范围提问在首个模型响应前可读取来源和处理阶段', async t => {
+  let release;
+  const a = await app(t, async () => {
+    if (!release) return new Promise(resolve => { release = () => resolve(reply('[1] 相关要点')); });
+    return reply('最终回答 [1]');
+  });
+  a.store.save('local', [book('long', '资料正文。'.repeat(4000))]);
+  const scope = { type: 'all' };
+  await a.request('/api/ai/ask', { scope, kind: 'chat', question: '总结资料' });
+  assert.ok(release);
+  const running = (await a.thread(scope)).data.job;
+  assert.equal(running.phase, 'running'); assert.equal(running.stage, '提取要点');
+  assert.equal(running.done, 0); assert.ok(running.total > 1);
+  assert.deepEqual(running.currentSource, { number: 1, title: '标题 long', part: 1 });
+  release();
+  assert.equal((await a.finish(scope)).job.phase, 'done');
+});
 test('全库、标签、主题提问读取正确范围并提供来源，账号之间对话隔离', async t => {
   const inputs = [], a = await app(t, async (url, options) => { inputs.push(JSON.parse(JSON.parse(options.body).messages[1].content)); return reply('回答 [1]'); });
   a.store.save('local', [book('a', '全文 A', ['甲'], 'career'), book('b', '全文 B', ['乙'], 'efficiency'), book('c', '全文 C', ['甲'], 'career')]);
